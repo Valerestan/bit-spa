@@ -1,1 +1,28 @@
-<p>foundations works!</p>
+<p>Series mas populares</p>
+<p> Hola, {{nombreUsuario}}</p>
+@if(estalogueado){
+    <p>Bienvenido</p>
+}@else {
+    <p>Por favor, inicia sesión</p>
+}
+<ol>
+@for(devs of devs; track $index){
+    <li>{{devs}}</li>
+    }
+</ol>
+<ul>
+    @for ( os of ooss; track os.id) {
+        <li>{{os.name}}</li>
+    }
+</ul>
+
+<button type="button" class="btn btn-primary" [disabled]="evitarenvio">Enviar</button>
+
+<figure>
+    <img [src]="urlimg" alt="">
+</figure>
+
+<section>
+    <button type="button" class="btn btn-secondary" (click)="manejarclick ()">Secondary</button>
+    <div class="mi-caja {{colorfondo}}" (mouseover)="manejarmouseover()"></div>
+</section>
