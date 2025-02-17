@@ -1,12 +1,581 @@
-.mi-caja{
-width: 300px;
-height: 300px;
-border: 2px solid red;
-margin-top: 2rem;
+.titulo-tendecia {
+  font-size: 40px;
+  color: #090f1d;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 45px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
 }
-.cf-rojo{
-    background-color: red;
+
+.subtitulo-tendecia {
+  font-size: 19px;
+  color: #090f1d;
+  margin-top: -10px;
+  text-align: center;
+  line-height: 45px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-.cf-amarillo{
-    background-color: yellow;
+.parrafo-tendecia {
+  width: 800px;
+  height: 200px;
+  margin-left: 300px;
+  margin-top: 80px;
+  font-size: 20px;
+  color: #393b3cb9;
+  justify-content: center;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tendencias {
+  width: 100%;
+  margin-top: 80px;
+}
+.cajas {
+  margin-left: -150px;
+}
+
+/*uno*/
+.uno {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 280px;
+  margin-top: 200px;
+}
+
+.compañerouno {
+  font-size: 30px;
+  color: #393b3c;
+  padding-top: 50px;
+  text-align: center;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.desarrollouno {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Linkperfiluno {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 150px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Dos*/
+.dos {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 630px;
+  margin-top: -300px;
+}
+
+.compañerodos {
+  font-size: 30px;
+  color: #393b3c;
+  padding-top: 50px;
+  text-align: center;
+  line-height: 30px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.Linkperfildos {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 120px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desarrollodos {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Tres*/
+
+.tres {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 980px;
+  margin-top: -300px;
+}
+
+.compañerotres {
+  font-size: 30px;
+  color: #393b3c;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 50px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.Linkperfiltres {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 120px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desarrollotres {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Cuatro*/
+.cuatro {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 280px;
+  margin-top: 100px;
+}
+
+.compañerocuatro {
+  font-size: 30px;
+  color: #393b3c;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 30px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.Linkperfilcuatro {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 120px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desarrollocuatro {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Sinco*/
+.sinco {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 630px;
+  margin-top: -300px;
+}
+
+.compañerosinco {
+  font-size: 30px;
+  color: #393b3c;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 30px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.Linkperfilsinco {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 120px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desarrollosinco {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Seis*/
+.seis {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 980px;
+  margin-top: -300px;
+}
+
+.compañeroseis {
+  font-size: 30px;
+  color: #393b3c;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 50px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.Linkperfilseis {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 120px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desarrolloseis {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Siete*/
+.siete {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 280px;
+  margin-top: 100px;
+}
+
+.compañerosiete {
+  font-size: 40px;
+  color: #393b3c;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 10px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.Linkperfilsiete {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 70px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desarrollosiete {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Ocho*/
+.ocho {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 630px;
+  margin-top: -300px;
+}
+
+.compañeroocho {
+  font-size: 40px;
+  color: #393b3c;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 10px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.Linkperfilocho {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 120px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desarrolloocho {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Nueve*/
+.nueve {
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 980px;
+  margin-top: -300px;
+}
+
+.compañeronueve {
+  font-size: 40px;
+  color: #393b3c;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 10px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.Linkperfilnueve {
+  font-size: 18px;
+  color: #090f1d;
+  padding-left: 120px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.desarrollonueve {
+  font-size: 18px;
+  color: #393b3cb5;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .parrafo-tendecia {
+    margin-left: 100px;
+  }
+  .cajas {
+    margin-left: 60px;
+  }
+  .uno {
+    margin-left: 60px;
+  }
+  .dos {
+    margin-left: 400px;
+  }
+  .tres {
+    margin-left: 60px;
+    margin-top: 70px;
+  }
+  .cuatro {
+    margin-left: 400px;
+    margin-top: -300px;
+  }
+  .sinco {
+    margin-left: 400px;
+    margin-top: 80px;
+  }
+  .seis {
+    margin-left: 60px;
+    margin-top: -300px;
+  }
+
+  .siete {
+    margin-left: 60px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .parrafo-tendecia {
+    width: 700px;
+    margin-left: 0px;
+  }
+  .cajas {
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .subtitulo-tendecia {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+  .parrafo-tendecia {
+    width: 300px;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  section {
+    margin-left: -20px;
+  }
+  .uno {
+    margin-left: 60px;
+  }
+  .dos {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .tres {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .cuatro {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .sinco {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .seis {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+
+  .siete {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  
 }

@@ -1,28 +1,81 @@
-<p>Series mas populares</p>
-<p> Hola, {{nombreUsuario}}</p>
-@if(estalogueado){
-    <p>Bienvenido</p>
-}@else {
-    <p>Por favor, inicia sesión</p>
-}
-<ol>
-@for(devs of devs; track $index){
-    <li>{{devs}}</li>
-    }
-</ol>
-<ul>
-    @for ( os of ooss; track os.id) {
-        <li>{{os.name}}</li>
-    }
-</ul>
+<p class="titulo-tendecia">Tendencias en Programación</p>
+<p class="subtitulo-tendecia">
+  Lo que está Marcando el Futuro del Desarrollo Web
+</p>
+<div class="parrafo-tendecia">
+  <p>
+    El mundo del desarrollo web evoluciona rápidamente, y cada día surgen nuevas
+    tecnologías, frameworks y herramientas que transforman la forma en que
+    programamos. Aquí te presentamos las principales tendencias que están
+    marcando el futuro de la programación web y cómo los desarrolladores están
+    adaptándose a estos cambios para crear experiencias más rápidas, accesibles
+    y escalables.
+  </p>
+</div>
+<img class="tendencias" src="tendecias.png" alt="" />
 
-<button type="button" class="btn btn-primary" [disabled]="evitarenvio">Enviar</button>
+<section class="cajas">
+  <div class="uno">
+    <p class="compañerouno">Frameworks JavaScript</p>
 
-<figure>
-    <img [src]="urlimg" alt="">
-</figure>
+    <p class="desarrollouno">
+      React, Vue.js, y Svelte dominan la escena como los frameworks más
+      populares. Con sus innovadoras características, estas tecnologías están
+      redefiniendo el desarrollo de interfaces de usuario ricas y dinámicas.
+    </p>
+  </div>
 
-<section>
-    <button type="button" class="btn btn-secondary" (click)="manejarclick ()">Secondary</button>
-    <div class="mi-caja {{colorfondo}}" (mouseover)="manejarmouseover()"></div>
+  <div class="dos">
+    <p class="compañerodos">Desarrollo de PWA</p>
+    <p class="desarrollodos">
+      Las PWA están ganando terreno gracias a su capacidad para ofrecer una
+      experiencia similar a las aplicaciones nativas, incluso en conexiones
+      lentas. Su adopción crece entre las empresas que buscan mejorar la
+      experiencia del usuario.
+    </p>
+  </div>
+
+  <div class="tres">
+    <p class="compañerotres">WebAssembly (WASM)</p>
+    <p class="desarrollotres">
+      Este innovador estándar está permitiendo que otros lenguajes como C, C++ y
+      Rust se ejecuten en el navegador, abriendo la puerta a aplicaciones más
+      rápidas y potentes.
+    </p>
+  </div>
+  <div class="cuatro">
+    <p class="compañerocuatro">Automatización y DevOps</p>
+    <p class="desarrollocuatro">
+      Herramientas como Docker, Kubernetes, y CI/CD (Integración y Entrega
+      Continua) están cambiando cómo los desarrolladores manejan el ciclo de
+      vida de las aplicaciones, haciendo el proceso de despliegue más eficiente
+      y seguro.
+    </p>
+  </div>
+
+  <div class="sinco">
+    <p class="compañerosinco">Inteligencia A y Machine Learning</p>
+    <p class="desarrollosinco">
+      La integración de IA y ML en aplicaciones web está en pleno auge,
+      permitiendo personalización avanzada y experiencias de usuario más
+      inteligentes.
+    </p>
+  </div>
+
+  <div class="seis">
+    <p class="compañeroseis">Desarrollo Serverless</p>
+    <p class="desarrolloseis">
+      Plataformas como AWS Lambda están permitiendo a los desarrolladores
+      construir aplicaciones sin preocuparse por la infraestructura, lo que
+      optimiza el tiempo de desarrollo y los costos operativos.
+    </p>
+  </div>
+  <div class="siete">
+    <p class="compañerosiete">Accesibilidad y UX/UI</p>
+    <p class="desarrollosiete">
+      La accesibilidad sigue siendo una prioridad en el desarrollo web, con más
+      énfasis en crear experiencias inclusivas para todos los usuarios,
+      independientemente de sus habilidades.
+    </p>
+  </div>
 </section>
