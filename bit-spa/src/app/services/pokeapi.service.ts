@@ -10,4 +10,7 @@ export class PokeapiService {
   getPokemons() {
     return this.httpClient.get('https://pokeapi.co/api/v2/pokemon/');
   }
+  getPokemon(url: string) {
+    return this.httpClient.get(url);
+  }
 }

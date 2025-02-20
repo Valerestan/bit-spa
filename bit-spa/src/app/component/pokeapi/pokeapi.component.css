@@ -1,0 +1,28 @@
+h1 {
+  color: #596168;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.img-pokemon {
+  width: 250px;
+  height: 250px;
+}
+
+.contenedor-titulo {
+  width: 240px;
+  height: 60px;
+  background-color: #090f1d;
+  margin-top: -40px;
+  margin-left: 0px;
+  border-radius: 0 0 6px 6px;
+  z-index: 1;
+}
+
+.card-title {
+  color: white;
+  margin-left: 76px;
+  margin-top: 15px;
+  z-index: 2;
+}
