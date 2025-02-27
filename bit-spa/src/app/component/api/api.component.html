@@ -1,10 +1,11 @@
 
 <main>
     <article>
-        <div class="imagen-container">
-            <img src="https://rickandmortyapi.com/api/character/avatar/74.jpeg" alt="personajes"> </div>
-            <h2> personajes</h2>
-            <span> estado del personaje</span>
-
+   @for (item of personajes; track $index) {
+    <div class="card">
+        <h1>{{item.name}}</h1>
+        <img [src]="item.image" alt="personaje ricky ">
+    </div>
+   }
     </article>
 </main>
